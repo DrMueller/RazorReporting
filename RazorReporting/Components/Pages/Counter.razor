@@ -1,0 +1,22 @@
+﻿@page "/counter"
+@using DependencyHack
+
+
+<p>
+    here:
+    @Html
+</p>
+
+@code {
+    [Inject] public required IRazorRenderer Renderer { get; set; }
+
+    private MarkupString Html { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var h = await Renderer.RenderAsync();
+        Html = new MarkupString(h);
+        StateHasChanged();
+    }
+
+}
