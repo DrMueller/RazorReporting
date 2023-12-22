@@ -23,7 +23,8 @@ public class Program
                 });
         });
 
-
+        // Unfortunely, this needs to be on the host, therefore needs to be here
+        builder.Services.AddRazorTemplating();
 
         var app = builder.Build();
 

@@ -1,4 +1,4 @@
-﻿namespace DependencyHack
+﻿namespace Interfaces
 {
     public interface IRazorRenderer
     {

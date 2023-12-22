@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorClassLibrary1", "Razor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyHack", "DependencyHack\DependencyHack.csproj", "{9976D80D-2E0B-40E9-8876-8DE07F369A3A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor.Templating.Core", "..\..\..\External\Razor.Templating.Core\src\Razor.Templating.Core\Razor.Templating.Core.csproj", "{A1180C9E-9737-4A17-AE64-1DC64A342D9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{42A06B21-3A0B-4460-9A36-8B9710FEFE9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{9976D80D-2E0B-40E9-8876-8DE07F369A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9976D80D-2E0B-40E9-8876-8DE07F369A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9976D80D-2E0B-40E9-8876-8DE07F369A3A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1180C9E-9737-4A17-AE64-1DC64A342D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1180C9E-9737-4A17-AE64-1DC64A342D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1180C9E-9737-4A17-AE64-1DC64A342D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1180C9E-9737-4A17-AE64-1DC64A342D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A06B21-3A0B-4460-9A36-8B9710FEFE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A06B21-3A0B-4460-9A36-8B9710FEFE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A06B21-3A0B-4460-9A36-8B9710FEFE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A06B21-3A0B-4460-9A36-8B9710FEFE9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace RazorClassLibrary1
+namespace RazorClassLibrary1.Reports
 {
     public class Page1Model : PageModel
     {

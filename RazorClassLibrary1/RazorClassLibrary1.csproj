@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -13,11 +13,11 @@
 
   <ItemGroup>
 	  <PackageReference Include="Lamar" Version="13.0.0" />
+	  <PackageReference Include="Razor.Templating.Core" Version="1.9.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\External\Razor.Templating.Core\src\Razor.Templating.Core\Razor.Templating.Core.csproj" />
-    <ProjectReference Include="..\DependencyHack\DependencyHack.csproj" />
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
   </ItemGroup>
 
 

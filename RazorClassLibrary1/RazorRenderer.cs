@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-using DependencyHack;
+using Interfaces;
 using Razor.Templating.Core;
 
 namespace RazorClassLibrary1;
